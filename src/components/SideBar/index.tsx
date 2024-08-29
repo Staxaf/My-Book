@@ -1,6 +1,7 @@
 import { links } from '@/utils/constants'
 import Image from 'next/image'
 import React from 'react'
+import SideBarItem from './SideBarItem'
 
 
 
@@ -22,12 +23,7 @@ export default function SideBar() {
 				<ul className='space-y-4 mt-20'>
 					{links.map((link) => (
 						<li key={link.link}>
-							<a
-								href={link.link}
-								className='text-main-black text-xl font-medium hover:text-blue-600 transition-colors duration-200'
-							>
-								{link.text}
-							</a>
+							<SideBarItem text={link.text} link={link.link} />
 						</li>
 					))}
 				</ul>
