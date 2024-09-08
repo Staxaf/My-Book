@@ -13,11 +13,12 @@ export default function SideBar() {
 			<div className='flex items-center justify-center'>
 				<Image
 					src="/images/logo.svg"
-					alt="Babuk Logo"
-					width={50} // Set appropriate width
-					height={50} // Set appropriate height
+					alt="Cuacane Logo"
+					width={0} // Set appropriate width
+					height={0} // Set appropriate height
+					className='w-14 h-14'
 				/>
-				<h3 className='text-main-black text-3xl font-semibold ml-5'>Babuk</h3>
+				<h3 className='text-main-black text-3xl font-semibold ml-5'>Cuacane</h3>
 			</div>
 			<nav>
 				<ul className='space-y-4 mt-20'>
